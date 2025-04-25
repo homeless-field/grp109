@@ -1,1 +1,52 @@
+/* CONTAINS EACH INDIVIDUAL WHITE CELL */
+.white {
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color: #ebecd0;
+    float: left;
+}
 
+/* CONTAINS EACH INDIVIDUAL BLACK CELL */
+.black {
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color: #739552;
+    float: left;
+}
+
+/* ENSURES THE CHESSBOARD IS 8 COLUMNS LONG */
+#clear {
+    clear: both;
+}
+
+/* CONTAINS THE FULL CHESSBOARD */
+#container {  /* ASHTON G */
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+/* "CHESSBOARD" TITLE SECTION - ASHTON G */
+#title {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center;
+    z-index: 10;
+    font-family: 'JustLettersMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+}
+
+img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
