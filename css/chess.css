@@ -17,7 +17,7 @@
 }
 
 /* ENSURES THE CHESSBOARD IS 8 COLUMNS LONG */
-#clear {
+.clear {
     clear: both;
 }
 
