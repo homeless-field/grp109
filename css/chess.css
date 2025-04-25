@@ -27,7 +27,8 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
-    
+
+    /*Vertical Centering by VED PATE*/
     position: relative;
     top: 50%;
     transform: translateY(-50%);
